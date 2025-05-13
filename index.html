@@ -3,42 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Landing Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Amsterdam Train Tickets - Don't Miss Out on the Best Deals!</title>
     <meta name="description" content="Book your Amsterdam train tickets now! Limited-time offers you can't afford to miss. Save big on your next journey!">
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://unpkg.com/aos@next/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body class="font-sans antialiased bg-gray-50">
     <!-- Header -->
     <header class="fixed w-full bg-white/95 backdrop-blur-sm shadow-md z-50">
         <nav class="container mx-auto px-4 py-4 flex justify-between items-center">
-            <div class="text-2xl font-bold text-blue-600">ATT</div>
+            <a href="https://readthisnow.github.io/amsterdam-train-tickets-2025-05-13-hqdkz" class="text-2xl font-bold text-blue-600 hover:text-blue-700 transition-colors duration-300">ATT</a>
             <div class="hidden md:flex space-x-8">
                 <a href="#features" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">Features</a>
                 <a href="#benefits" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">Benefits</a>
+                <a href="#testimonials" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">Testimonials</a>
+                <a href="#about" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">About</a>
                 <a href="#faq" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">FAQ</a>
-                <a href="#contact" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">Contact</a>
             </div>
-            <button class="md:hidden text-gray-600">
-                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
-                </svg>
+            <button class="mobile-menu-button md:hidden text-gray-600" aria-label="Toggle mobile menu">
+                <i class="fas fa-bars text-2xl"></i>
             </button>
         </nav>
+        <div class="mobile-menu hidden md:hidden bg-white w-full border-t border-gray-100">
+            <a href="#features" class="block px-4 py-3 text-gray-600 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-300">Features</a>
+            <a href="#benefits" class="block px-4 py-3 text-gray-600 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-300">Benefits</a>
+            <a href="#testimonials" class="block px-4 py-3 text-gray-600 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-300">Testimonials</a>
+            <a href="#about" class="block px-4 py-3 text-gray-600 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-300">About</a>
+            <a href="#faq" class="block px-4 py-3 text-gray-600 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-300">FAQ</a>
+        </div>
     </header>
 
     <!-- Hero Section -->
     <section class="pt-32 pb-24 bg-gradient-to-r from-blue-50 to-indigo-50">
         <div class="container mx-auto px-4">
-            <div class="max-w-4xl mx-auto text-center">
+            <div class="max-w-4xl mx-auto text-center" data-aos="fade-up">
                 <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6">
                     Don't Miss Out on Exclusive Amsterdam Train Tickets!
                 </h1>
                 <p class="text-xl md:text-2xl text-gray-600 mb-8">
-                    🔥 Limited-time offers selling out fast! Join thousands of smart travelers who've already saved big.
+                    🔥 Limited-time offers selling out fast! Join thousands of smart travelers who've already saved up to 60% on their journeys.
                 </p>
-                <a href="https://laptoplifepro.com/traintickets" class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-semibold px-8 py-4 rounded-lg transform hover:scale-105 transition-all duration-300 shadow-lg">
-                    Grab Your Tickets Now!
+                <a href="https://laptoplifepro.com/traintickets" class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-semibold px-8 py-4 rounded-lg transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl">
+                    Grab Your Tickets Now - Save 60%!
                 </a>
             </div>
         </div>
@@ -47,20 +62,39 @@
     <!-- Features -->
     <section id="features" class="py-24 bg-white">
         <div class="container mx-auto px-4">
-            <h2 class="text-3xl md:text-4xl font-bold text-center mb-16 text-gray-900">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-16 text-gray-900" data-aos="fade-up">
                 Why You Can't Afford to Wait
             </h2>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300">
+                <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-102" data-aos="fade-up">
                     <div class="text-blue-600 mb-4">
                         <svg class="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
                         </svg>
                     </div>
                     <h3 class="text-xl font-semibold mb-4">Lightning-Fast Booking</h3>
-                    <p class="text-gray-600">Don't waste precious minutes! Book in seconds before prices increase.</p>
+                    <p class="text-gray-600">Secure your tickets in under 60 seconds with our streamlined booking process. No more waiting in long queues or dealing with complicated systems.</p>
                 </div>
-                <!-- More feature cards with similar structure -->
+                
+                <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-102" data-aos="fade-up" data-aos-delay="100">
+                    <div class="text-blue-600 mb-4">
+                        <svg class="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-4">Exclusive Pricing</h3>
+                    <p class="text-gray-600">Access member-only rates and save up to 60% on regular ticket prices. Our price-match guarantee ensures you'll never overpay.</p>
+                </div>
+
+                <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-102" data-aos="fade-up" data-aos-delay="200">
+                    <div class="text-blue-600 mb-4">
+                        <svg class="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-4">Guaranteed Availability</h3>
+                    <p class="text-gray-600">Never miss out on peak travel times with our priority booking system. Reserve your seats up to 6 months in advance.</p>
+                </div>
             </div>
         </div>
     </section>
@@ -68,22 +102,120 @@
     <!-- Benefits -->
     <section id="benefits" class="py-24 bg-gray-50">
         <div class="container mx-auto px-4">
-            <h2 class="text-3xl md:text-4xl font-bold text-center mb-16 text-gray-900">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-16 text-gray-900" data-aos="fade-up">
                 What You're Missing Out On
             </h2>
             <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
-                <div class="flex items-start space-x-4">
+                <div class="flex items-start space-x-4 transform hover:scale-102 transition-transform duration-300" data-aos="fade-right">
                     <div class="flex-shrink-0 bg-blue-100 rounded-full p-3">
                         <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
                         </svg>
                     </div>
                     <div>
-                        <h3 class="text-xl font-semibold mb-2">Exclusive Discounts</h3>
-                        <p class="text-gray-600">Join thousands of smart travelers already saving up to 50% on their tickets!</p>
+                        <h3 class="text-xl font-semibold mb-2">Premium Seat Selection</h3>
+                        <p class="text-gray-600">Choose from the best seats available with our interactive seating map. Enjoy extra legroom and quiet zones at no additional cost.</p>
                     </div>
                 </div>
-                <!-- More benefit items with similar structure -->
+
+                <div class="flex items-start space-x-4 transform hover:scale-102 transition-transform duration-300" data-aos="fade-left">
+                    <div class="flex-shrink-0 bg-blue-100 rounded-full p-3">
+                        <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                        </svg>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-semibold mb-2">Flexible Cancellation</h3>
+                        <p class="text-gray-600">Change your travel plans up to 24 hours before departure with our no-questions-asked cancellation policy.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials" class="py-24 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-16 text-gray-900" data-aos="fade-up">
+                What Our Customers Say
+            </h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300" data-aos="fade-up">
+                    <div class="flex text-yellow-400 mb-4">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="text-gray-600 mb-4">"Saved over €100 on my Amsterdam to Paris tickets! The booking process was incredibly smooth, and the seat selection feature is fantastic."</p>
+                    <div class="text-sm">
+                        <p class="font-semibold">Sarah Johnson</p>
+                        <p class="text-gray-500">Business Traveler, Microsoft</p>
+                    </div>
+                </div>
+
+                <div class="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300" data-aos="fade-up" data-aos-delay="100">
+                    <div class="flex text-yellow-400 mb-4">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="text-gray-600 mb-4">"Best prices I've found anywhere. The flexible cancellation policy gave me peace of mind when booking multiple trips."</p>
+                    <div class="text-sm">
+                        <p class="font-semibold">Mark Thompson</p>
+                        <p class="text-gray-500">Frequent Traveler</p>
+                    </div>
+                </div>
+
+                <div class="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300" data-aos="fade-up" data-aos-delay="200">
+                    <div class="flex text-yellow-400 mb-4">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p class="text-gray-600 mb-4">"The mobile app makes it so easy to manage bookings. I've recommended it to all my colleagues."</p>
+                    <div class="text-sm">
+                        <p class="font-semibold">Emma Davis</p>
+                        <p class="text-gray-500">Travel Blogger</p>
+                    </div>
+                </div>
+
+                <div class="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300" data-aos="fade-up" data-aos-delay="300">
+                    <div class="flex text-yellow-400 mb-4">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="text-gray-600 mb-4">"Customer service is outstanding. They helped me rebook when I missed my train, no extra charge!"</p>
+                    <div class="text-sm">
+                        <p class="font-semibold">John Anderson</p>
+                        <p class="text-gray-500">Student Traveler</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us -->
+    <section id="about" class="py-24 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-16 text-gray-900" data-aos="fade-up">
+                About Us
+            </h2>
+            <div class="max-w-3xl mx-auto">
+                <p class="text-gray-600 mb-8" data-aos="fade-up">
+                    Founded in 2020, Amsterdam Train Tickets emerged from a simple vision: to make European train travel accessible, affordable, and stress-free for everyone. What started as a small startup has grown into the Netherlands' most trusted train ticket platform, serving over 100,000 happy travelers annually.
+                </p>
+                <p class="text-gray-600" data-aos="fade-up" data-aos-delay="100">
+                    Our mission is to revolutionize train travel by providing unbeatable prices, exceptional customer service, and innovative booking solutions. We believe in sustainable travel, transparency in pricing, and putting our customers first in everything we do. Our core values of integrity, innovation, and customer satisfaction drive every decision we make.
+                </p>
             </div>
         </div>
     </section>
@@ -91,29 +223,48 @@
     <!-- FAQ -->
     <section id="faq" class="py-24 bg-white">
         <div class="container mx-auto px-4">
-            <h2 class="text-3xl md:text-4xl font-bold text-center mb-16 text-gray-900">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-16 text-gray-900" data-aos="fade-up">
                 Frequently Asked Questions
             </h2>
             <div class="max-w-3xl mx-auto space-y-6">
-                <div class="border border-gray-200 rounded-lg p-6 hover:shadow-md transition-shadow duration-300">
-                    <h3 class="text-xl font-semibold mb-2">How do I get the best deals?</h3>
-                    <p class="text-gray-600">Book early and check our limited-time offers - they sell out within hours!</p>
+                <div class="border border-gray-200 rounded-lg p-6 hover:shadow-md transition-all duration-300 transform hover:scale-102" data-aos="fade-up">
+                    <h3 class="text-xl font-semibold mb-2">How far in advance can I book tickets?</h3>
+                    <p class="text-gray-600">You can book tickets up to 6 months in advance. For the best deals, we recommend booking at least 3 months before your travel date.</p>
                 </div>
-                <!-- More FAQ items with similar structure -->
+
+                <div class="border border-gray-200 rounded-lg p-6 hover:shadow-md transition-all duration-300 transform hover:scale-102" data-aos="fade-up" data-aos-delay="100">
+                    <h3 class="text-xl font-semibold mb-2">What is your cancellation policy?</h3>
+                    <p class="text-gray-600">We offer free cancellation up to 24 hours before departure. Cancellations within 24 hours may be subject to a small fee.</p>
+                </div>
+
+                <div class="border border-gray-200 rounded-lg p-6 hover:shadow-md transition-all duration-300 transform hover:scale-102" data-aos="fade-up" data-aos-delay="200">
+                    <h3 class="text-xl font-semibold mb-2">Are there senior or student discounts?</h3>
+                    <p class="text-gray-600">Yes! We offer special rates for seniors (60+), students, and youth travelers (under 26). Valid ID required at time of travel.</p>
+                </div>
+
+                <div class="border border-gray-200 rounded-lg p-6 hover:shadow-md transition-all duration-300 transform hover:scale-102" data-aos="fade-up" data-aos-delay="300">
+                    <h3 class="text-xl font-semibold mb-2">How do I get my tickets?</h3>
+                    <p class="text-gray-600">Tickets are delivered instantly via email and our mobile app. You can choose to print them or show the digital version during your journey.</p>
+                </div>
+
+                <div class="border border-gray-200 rounded-lg p-6 hover:shadow-md transition-all duration-300 transform hover:scale-102" data-aos="fade-up" data-aos-delay="400">
+                    <h3 class="text-xl font-semibold mb-2">What payment methods do you accept?</h3>
+                    <p class="text-gray-600">We accept all major credit cards, PayPal, Apple Pay, and Google Pay. All transactions are secure and encrypted.</p>
+                </div>
             </div>
         </div>
     </section>
 
     <!-- CTA Section -->
-    <section class="py-24 bg-gradient-to-r from-blue-600 to-indigo-600 text-white">
+    <section class="py-24 bg-gradient-to-r from-blue-600 to-indigo-600 text-white" style="background-image: url('https://images.unsplash.com/photo-1530521954074-e64f6810b32d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80'); background-blend-mode: overlay;">
         <div class="container mx-auto px-4 text-center">
-            <h2 class="text-3xl md:text-4xl font-bold mb-8">
+            <h2 class="text-3xl md:text-4xl font-bold mb-8" data-aos="fade-up">
                 Don't Let These Deals Slip Away!
             </h2>
-            <p class="text-xl mb-12 max-w-2xl mx-auto">
-                Join thousands of satisfied travelers who've already secured their tickets at unbeatable prices!
+            <p class="text-xl mb-12 max-w-2xl mx-auto" data-aos="fade-up" data-aos-delay="100">
+                Join over 100,000 satisfied travelers who've already secured their tickets at unbeatable prices. Limited-time offer - Save up to 60% today!
             </p>
-            <a href="https://laptoplifepro.com/traintickets" class="inline-block bg-white text-blue-600 font-semibold px-8 py-4 rounded-lg transform hover:scale-105 transition-all duration-300 shadow-lg">
+            <a href="https://laptoplifepro.com/traintickets" class="inline-block bg-white text-blue-600 font-semibold px-8 py-4 rounded-lg transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl" data-aos="fade-up" data-aos-delay="200">
                 Book Your Tickets Now
             </a>
         </div>
@@ -126,22 +277,25 @@
                 <div>
                     <h3 class="text-xl font-semibold mb-4">Contact Us</h3>
                     <p class="mb-2">Email: info@amsterdamtraintickets.nl</p>
+                    <p class="mb-2">Phone: +31 20 123 4567</p>
+                    <p>Available 24/7 for support</p>
                 </div>
                 <div>
                     <h3 class="text-xl font-semibold mb-4">Quick Links</h3>
                     <ul class="space-y-2">
-                        <li><a href="#" class="hover:text-white transition-colors duration-300">About Us</a></li>
-                        <li><a href="#" class="hover:text-white transition-colors duration-300">Terms & Conditions</a></li>
-                        <li><a href="#" class="hover:text-white transition-colors duration-300">Privacy Policy</a></li>
+                        <li><a href="#about" class="hover:text-white transition-colors duration-300">About Us</a></li>
+                        <li><a href="https://readthisnow.github.io/amsterdam-train-tickets-2025-05-13-hqdkz/terms.html" class="hover:text-white transition-colors duration-300">Terms & Conditions</a></li>
+                        <li><a href="https://readthisnow.github.io/amsterdam-train-tickets-2025-05-13-hqdkz/privacy.html" class="hover:text-white transition-colors duration-300">Privacy Policy</a></li>
+                        <li><a href="https://readthisnow.github.io/amsterdam-train-tickets-2025-05-13-hqdkz/blog.html" class="hover:text-white transition-colors duration-300">Blog</a></li>
                     </ul>
                 </div>
                 <div>
                     <h3 class="text-xl font-semibold mb-4">Follow Us</h3>
                     <div class="flex space-x-4">
-                        <a href="#" class="hover:text-white transition-colors duration-300">
+                        <a href="#" class="hover:text-white transition-colors duration-300 transform hover:scale-110">
                             <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
                         </a>
-                        <a href="#" class="hover:text-white transition-colors duration-300">
+                        <a href="#" class="hover:text-white transition-colors duration-300 transform hover:scale-110">
                             <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/></svg>
                         </a>
                     </div>
@@ -156,6 +310,35 @@
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
         AOS.init();
+
+        document.addEventListener('DOMContentLoaded', function() {
+            const mobileMenuButton = document.querySelector('header nav .mobile-menu-button');
+            const mobileMenu = document.querySelector('header nav .mobile-menu');
+            
+            if (mobileMenuButton && mobileMenu) {
+                mobileMenuButton.addEventListener('click', () => {
+                    mobileMenu.classList.toggle('hidden');
+                    const icon = mobileMenuButton.querySelector('i');
+                    if (icon) {
+                        icon.classList.toggle('fa-bars');
+                        icon.classList.toggle('fa-times');
+                    }
+                });
+
+                const mobileMenuLinks = mobileMenu.querySelectorAll('a');
+                mobileMenuLinks.forEach(link => {
+                    link.addEventListener('click', () => {
+                        mobileMenu.classList.add('hidden');
+                        const icon = mobileMenuButton.querySelector('i');
+                        if (icon) {
+                            icon.classList.remove('fa-times');
+                            icon.classList.add('fa-bars');
+                        }
+                    });
+                });
+            }
+        });
     </script>
+</body>
 </body>
 </html>
